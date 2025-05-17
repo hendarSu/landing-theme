@@ -1,0 +1,38 @@
+:root {
+  --pepadi-gold: #d4af37;
+  --pepadi-black: #1a1a1a;
+}
+
+.bg-pepadi-gold {
+  background-color: var(--pepadi-gold);
+}
+
+.text-pepadi-gold {
+  color: var(--pepadi-gold);
+}
+
+.border-pepadi-gold {
+  border-color: var(--pepadi-gold);
+}
+
+.bg-pepadi-black {
+  background-color: var(--pepadi-black);
+}
+
+.text-pepadi-black {
+  color: var(--pepadi-black);
+}
+
+.border-pepadi-black {
+  border-color: var(--pepadi-black);
+}
+
+/* Add a custom button style for PEPADI */
+.btn-pepadi {
+  background-color: var(--pepadi-gold);
+  color: white;
+}
+
+.btn-pepadi:hover {
+  background-color: #c09c30;
+}
