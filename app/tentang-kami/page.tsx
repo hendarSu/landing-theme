@@ -2,10 +2,14 @@ import Image from "next/image"
 import { ArrowRight } from "lucide-react"
 import { Card, CardContent } from "@/components/ui/card"
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs"
+import { MainNav } from "@/components/main-nav"
 
 export default function AboutPage() {
   return (
     <div className="flex min-h-screen flex-col">
+      {/* Use the MainNav component for the header */}
+      <MainNav />
+      
       {/* Main content */}
       <main className="flex-1">
         {/* Hero Section */}

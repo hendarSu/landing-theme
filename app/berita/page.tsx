@@ -7,6 +7,7 @@ import { Button } from "@/components/ui/button"
 import { Card, CardContent, CardDescription, CardFooter, CardHeader, CardTitle } from "@/components/ui/card"
 import { Input } from "@/components/ui/input"
 import { Separator } from "@/components/ui/separator"
+import { MainNav } from "@/components/main-nav"
 
 // Dummy data untuk berita
 const featuredNews = {
@@ -98,6 +99,9 @@ const categories = [
 export default function NewsPage() {
   return (
     <main className="flex min-h-screen flex-col">
+      {/* Use the MainNav component for the header */}
+      <MainNav />
+      
       {/* Hero Section */}
       <section className="relative bg-primary/10 py-20">
         <div className="container mx-auto px-4 text-center">

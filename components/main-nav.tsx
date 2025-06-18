@@ -12,14 +12,14 @@ export function MainNav() {
           <Logo />
 
           <div className="flex items-center gap-4">
-            <Link
+            {/* <Link
               href="/admin"
               className="hidden md:inline-block text-sm font-medium hover:underline underline-offset-4"
             >
               Portal Admin
-            </Link>
+            </Link> */}
             <Button asChild className="hidden md:inline-flex">
-              <Link href="/login">Masuk</Link>
+              {/* <Link href="/login">Masuk</Link> */}
             </Button>
             <MobileNav />
           </div>
@@ -29,9 +29,10 @@ export function MainNav() {
         <div className="hidden md:flex h-12 items-center border-t">
           <nav className="flex items-center space-x-8">
             <Link href="/" className="text-sm font-medium hover:text-primary transition-colors">
-              Pendopo
+              {/* Pendopo */}
+              Beranda
             </Link>
-            <Link href="/acara" className="text-sm font-medium hover:text-primary transition-colors">
+            {/* <Link href="/acara" className="text-sm font-medium hover:text-primary transition-colors">
               Acara
             </Link>
             <Link href="/padepokan" className="text-sm font-medium hover:text-primary transition-colors">
@@ -39,13 +40,13 @@ export function MainNav() {
             </Link>
             <Link href="/anggota" className="text-sm font-medium hover:text-primary transition-colors">
               Anggota
-            </Link>
+            </Link> */}
             <Link href="/berita" className="text-sm font-medium hover:text-primary transition-colors">
               Berita
             </Link>
-            <Link href="/pasar-seni" className="text-sm font-medium hover:text-primary transition-colors">
+            {/* <Link href="/pasar-seni" className="text-sm font-medium hover:text-primary transition-colors">
               Pasar Seni
-            </Link>
+            </Link> */}
             <Link href="/tentang-kami" className="text-sm font-medium hover:text-primary transition-colors">
               Tentang Kami
             </Link>
