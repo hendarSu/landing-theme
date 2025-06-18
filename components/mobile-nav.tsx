@@ -49,6 +49,13 @@ export function MobileNav() {
               Padepokan
             </Link>
             <Link
+              href="/anggota"
+              className="px-2 py-1 text-lg hover:underline underline-offset-4"
+              onClick={() => setOpen(false)}
+            >
+              Anggota
+            </Link>
+            <Link
               href="/berita"
               className="px-2 py-1 text-lg hover:underline underline-offset-4"
               onClick={() => setOpen(false)}
@@ -77,10 +84,17 @@ export function MobileNav() {
             >
               Portal Admin
             </Link>
+            <Link
+              href="/login"
+              className="px-2 py-1 text-lg hover:underline underline-offset-4"
+              onClick={() => setOpen(false)}
+            >
+              Masuk
+            </Link>
           </nav>
           <div className="mt-auto mb-8">
             <Button className="w-full" onClick={() => setOpen(false)}>
-              Masuk
+              Daftar
             </Button>
           </div>
         </div>

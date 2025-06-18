@@ -18,7 +18,9 @@ export function MainNav() {
             >
               Portal Admin
             </Link>
-            <Button className="hidden md:inline-flex">Masuk</Button>
+            <Button asChild className="hidden md:inline-flex">
+              <Link href="/login">Masuk</Link>
+            </Button>
             <MobileNav />
           </div>
         </div>
@@ -34,6 +36,9 @@ export function MainNav() {
             </Link>
             <Link href="/padepokan" className="text-sm font-medium hover:text-primary transition-colors">
               Padepokan
+            </Link>
+            <Link href="/anggota" className="text-sm font-medium hover:text-primary transition-colors">
+              Anggota
             </Link>
             <Link href="/berita" className="text-sm font-medium hover:text-primary transition-colors">
               Berita
