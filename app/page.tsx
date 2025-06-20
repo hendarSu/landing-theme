@@ -49,7 +49,7 @@ export default function LandingPage() {
               </div>
               <div className="mt-8 lg:mt-0">
                 <ImageWithFallback
-                  src="/placeholder-heuxi.png"
+                  src="/golek.png"
                   alt="Seni Pedalangan"
                   width={550}
                   height={550}
