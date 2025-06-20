@@ -12,8 +12,8 @@ export function Logo({ className, showText = true }: LogoProps) {
       <div className={`flex items-center ${className}`}>
         <div className="relative h-12 w-12 flex-shrink-0">
           <ImageWithFallback
-            // src="/logo-pepadi.webp"
-            src="/image.png"
+            src="/logo-pepadi.webp"
+            // src="/image.png"
             alt="Logo PEPADI"
             width={48}
             height={48}
@@ -22,7 +22,7 @@ export function Logo({ className, showText = true }: LogoProps) {
             fallbackSrc="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/logo-pepadi-500px%20%281%29-mop3goeC5sd2QjcUzMj4DgdDd5yVBC.webp"
           />
         </div>
-        {showText && <span className="text-xl font-bold text-pepadi-black ml-2 hidden sm:inline-block">Koding Beruang</span>}
+        {showText && <span className="text-xl font-bold text-pepadi-black ml-2 hidden sm:inline-block">PEPADI Kabupaten Bandung</span>}
       </div>
     </Link>
   )

@@ -73,7 +73,7 @@ const InstagramFeed = () => {
           }}
         />
 
-        <div className="mt-8 md:mt-12 text-center">
+        {/* <div className="mt-8 md:mt-12 text-center">
           <Button size="sm" className="sm:size-md" asChild>
             <a
               href={`https://www.instagram.com/${
@@ -85,7 +85,7 @@ const InstagramFeed = () => {
               Ikuti Instagram Kami
             </a>
           </Button>
-        </div>
+        </div> */}
       </div>
     </section>
   );

@@ -31,12 +31,20 @@ export default function LandingPage() {
                 </div>
                 <div className="flex flex-col sm:flex-row gap-2">
                   <Button size="lg" className="w-full sm:w-auto">
-                    Jelajahi Acara
+                    <a
+                      href={`https://www.instagram.com/${
+                        process.env.NEXT_PUBLIC_INSTAGRAM_USERNAME || ""
+                      }`}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      Ikuti Instagram Kami
+                    </a>
                     <ArrowRight className="ml-2 h-4 w-4" />
                   </Button>
-                  <Button size="lg" variant="outline" className="w-full sm:w-auto">
+                  {/* <Button size="lg" variant="outline" className="w-full sm:w-auto">
                     Gabung Komunitas
-                  </Button>
+                  </Button> */}
                 </div>
               </div>
               <div className="mt-8 lg:mt-0">
