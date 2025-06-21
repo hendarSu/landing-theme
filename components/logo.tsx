@@ -22,7 +22,7 @@ export function Logo({ className, showText = true }: LogoProps) {
             fallbackSrc="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/logo-pepadi-500px%20%281%29-mop3goeC5sd2QjcUzMj4DgdDd5yVBC.webp"
           />
         </div>
-        {showText && <span className="text-xl font-bold text-pepadi-black ml-2 hidden sm:inline-block">PEPADI Kabupaten Bandung</span>}
+        {showText && <span className="text-xl font-bold text-pepadi-black ml-2 hidden sm:inline-block">Pepadi Kab. Bandung</span>}
       </div>
     </Link>
   )
